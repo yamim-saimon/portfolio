@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -8,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center ">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
           <a className="text-blue-600" href="https://nextjs.org">
@@ -65,6 +67,8 @@ export default function Home() {
           </a>
         </div>
       </main>
+
+      <Navbar/>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
