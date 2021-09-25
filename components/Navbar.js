@@ -8,7 +8,7 @@ export default function Navbar() {
                 <div className='text-2xl  '><Link href='/'><a>Logo </a></Link></div>
                 <div className='font-semibold flex-end'>
                     <Link href='/' ><a className='px-3 active:text-green-400'>Home</a></Link>
-                    <Link href='/'><a className='px-3'>About</a></Link>
+                    <Link href='/about'><a className='px-3'>About</a></Link>
                     <Link href='/'><a className='px-3'>Portfolio</a></Link>
                     <Link href='/'><a className='px-3'>Contact</a></Link>
                 </div>
