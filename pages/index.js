@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 import Link from 'next/link'
 
 export default function Home() {
@@ -69,7 +71,8 @@ export default function Home() {
       </main>
 
       <Navbar/>
-
+      <Hero/>
+      <Footer/>
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
           className="flex items-center justify-center"
