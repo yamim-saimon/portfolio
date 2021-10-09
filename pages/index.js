@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import About from '../components/AboutMe'
 import Link from 'next/link'
 import ContactComponent from '../components/ContactComponent'
+import CertificateComponent from '../components/CertificateComponent'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <div className='my-10'><ContactComponent/></div>
+      {/* <CertificateComponent/> */}
       <Footer/>
         
     </div>
